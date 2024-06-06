@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: -23px;
+  padding:200px 200px 200px 200px;
+  margin-top: 0px;
+
+}
+.heading {
+  margin-top: 20px; /* Space between the heading and the buttons */
+  color: #274c77;
+  font-family: 'Lato', sans-serif;
+  margin-left: -50px;
+}
+    .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8rem;
+    margin-top: -325px;
+    margin-left: -23px;
+    text-align: center;
+    padding: 2px 100px 40px 0;
+
+  
+    }
+    
+    .button {
+      flex: 1; 
+      margin-top:0px;            /* Ensures buttons take equal space */
+      height: 100px; /* Adjust the height as needed */
+      width: 180px; /* Optional: Set max width if you want a limit */
+      padding: 10px 10px; /* Adjust padding for the size of the button */
+      background-color:orange; /* Button background color */
+      color: white; /* Button text color */
+      border: none; /* Remove default border */
+      border-radius: 5px; /* Optional: Add border radius for rounded corners */
+      cursor: pointer; /* Pointer cursor on hover */
+      transition: background-color 0.3s; /* Smooth transition for background color change */
+    }
+    
+    .button:hover {
+      background-color: #45a049; /* Change background color on hover */
+    }
+    

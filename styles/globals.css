@@ -31,3 +31,39 @@ body {
     text-wrap: balance;
   }
 }
+.navbar{
+  color: #586F55;
+  font-family:'Lato',sans-serif ;
+
+}
+.sidebar{
+  color:#274c77;
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+
+}
+
+.sidebar button:hover{
+  background-color: #3d8a3c;
+  color: white;
+  transition-duration: 200ms;
+
+}
+.index{
+  background-color: antiquewhite;
+}
+.btn {
+width: 200px;
+height: 42px;
+text-align: left;
+border-radius:2cm;
+border-left: 100px;
+text-decoration: none;
+}
+.href{
+  color:black;
+  
+}
+.href:hover{
+  color:black;
+}
