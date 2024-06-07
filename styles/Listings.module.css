@@ -5,7 +5,11 @@
   padding:200px 200px 200px 200px;
   margin-top: 0px; */
   width: 50%;
-  margin: auto;
+ 
+  margin:auto;
+  padding-top: 40px;
+  position: relative;
+
 
 }
 .heading {
@@ -89,6 +93,7 @@
   width: 50%;
   margin: auto;
   padding: 0 0 20px 0;
+  float:unset;
 } 
 .postButcontainer{
   margin: auto;
@@ -125,4 +130,11 @@
   cursor: pointer;
 
 }
+/* .notifcontainer{
+  float: right;
+  width:30%
+ 
+  
+  
+} */
     

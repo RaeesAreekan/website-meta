@@ -6,7 +6,8 @@ import { faChevronRight} from "@fortawesome/free-solid-svg-icons";
 const RecentListings = ()=> {
   return (
     <>
-   <div className={`${styles.container} shadow-2xl`}>
+    <div>
+   <section className={`${styles.container} shadow-xl`}>
       <div className={styles.heading}>Recent listings </div>
       <div className={styles.buttonContainer}>
         <Link href="/page1" >
@@ -28,8 +29,9 @@ const RecentListings = ()=> {
       <span className={`text-right ${styles.shift} `}> See all  <FontAwesomeIcon icon={faChevronRight} className="fas fa-check mr-2" style={{ color: "black" }} /></span>
       
          
+    </section>
+    {/* <section className={styles.notifcontainer} >Hello World</section> */}
     </div>
-    
     </>
   )
 };

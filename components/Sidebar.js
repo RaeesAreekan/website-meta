@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse,faInbox,faEnvelope,faCalendar,faHandshake} from "@fortawesome/free-solid-svg-icons";
+import { faHouse,faInbox,faEnvelope,faCalendar,faHandshake,faGear} from "@fortawesome/free-solid-svg-icons";
 const Sidebar=()=> {
   return (
     <>
@@ -39,7 +39,12 @@ const Sidebar=()=> {
     <span className="text-center">Calendar</span>
   </Link>
 </button>
+
 </aside>
+<div className='settings href'>
+<FontAwesomeIcon icon={faGear} className="fas fa-check mr-5" style={{ color: "black" }} />
+  Settings
+</div>
     
     </>
   );

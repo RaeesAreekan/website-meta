@@ -5,7 +5,7 @@ import { faCaretRight} from "@fortawesome/free-solid-svg-icons";
 export default function Post_Candidates() {
   return (
     <>
-    <div className={`${styles.Postcontainer} shadow-2xl`}>
+    <div className={`${styles.Postcontainer} shadow-xl`}>
         <div className={styles.postButcontainer}>
             <button className={styles.postButton}>
                 Post a job <FontAwesomeIcon icon={faCaretRight} className="fas fa-check mr-2" style={{ color: "black" }} />

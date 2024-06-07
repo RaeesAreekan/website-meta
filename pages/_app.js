@@ -6,8 +6,7 @@ import "@/styles/globals.css";
  const App=({ Component, pageProps })=> {
   return (
    <>
-   <Navbar company="XYZ Company" user_name="Iman"/>
-   <Sidebar/>
+  
    
     <Component {...pageProps}/>
     
