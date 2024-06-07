@@ -1,29 +1,35 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/Listings.module.css'
-function RecentListings () {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight} from "@fortawesome/free-solid-svg-icons";
+const RecentListings = ()=> {
   return (
     <>
-   <div className={styles.container}>
-      <div className={styles.heading}>My Heading</div>
+   <div className={`${styles.container} shadow-2xl`}>
+      <div className={styles.heading}>Recent listings </div>
       <div className={styles.buttonContainer}>
-        <Link href="/page1" passHref>
+        <Link href="/page1" >
           <button className={styles.button}>
-            Page 1
+            Job 1
           </button>
         </Link>
-        <Link href="/page2" passHref>
+        <Link href="/page2" >
           <button className={styles.button}>
-            Page 2
+            Job 2
           </button>
         </Link>
-        <Link href="/page3" passHref>
+        <Link href="/page3" >
           <button className={styles.button}>
-            Page 3
+            Job 3
           </button>
         </Link>
       </div>
+      <span className={`text-right ${styles.shift} `}> See all  <FontAwesomeIcon icon={faChevronRight} className="fas fa-check mr-2" style={{ color: "black" }} /></span>
+      
+         
     </div>
+    
     </>
   )
 };

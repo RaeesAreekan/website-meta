@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 function Navbar(props){
     return (
-      <nav className="bg-white shadow-lg py-4 px-6 flex justify-between items-center navbar">
+      <nav className="bg-white shadow-2xl py-4 px-6 flex justify-between items-center navbar">
         <div className="text-1xl font-bold">
           <Link href="/">Interview.ai</Link>
         </div>

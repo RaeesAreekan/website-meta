@@ -1,9 +1,11 @@
 .container{
   display: flex;
   flex-direction: column;
-  margin-left: -23px;
+  /* margin-left: -23px;
   padding:200px 200px 200px 200px;
-  margin-top: 0px;
+  margin-top: 0px; */
+  width: 50%;
+  margin: auto;
 
 }
 .heading {
@@ -11,34 +13,116 @@
   color: #274c77;
   font-family: 'Lato', sans-serif;
   margin-left: -50px;
+  font-weight: 700;
 }
-    .buttonContainer {
+.buttonContainer {
+
+    margin: auto;
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     gap: 1.8rem;
-    margin-top: -325px;
-    margin-left: -23px;
-    text-align: center;
-    padding: 2px 100px 40px 0;
+    /* margin-top: -325px;
+    margin-left: -23px; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 70px 20px 0;
+    
+
+    
+    
 
   
     }
     
-    .button {
+.button {
       flex: 1; 
       margin-top:0px;            /* Ensures buttons take equal space */
       height: 100px; /* Adjust the height as needed */
       width: 180px; /* Optional: Set max width if you want a limit */
       padding: 10px 10px; /* Adjust padding for the size of the button */
       background-color:orange; /* Button background color */
-      color: white; /* Button text color */
+      color: black; /* Button text color */
+      font-weight: 500;
       border: none; /* Remove default border */
       border-radius: 5px; /* Optional: Add border radius for rounded corners */
       cursor: pointer; /* Pointer cursor on hover */
       transition: background-color 0.3s; /* Smooth transition for background color change */
+      border-radius: 16px;
     }
     
-    .button:hover {
-      background-color: #45a049; /* Change background color on hover */
+.button:hover {
+      background-color:#3d8a3c; /* Change background color on hover */
     }
+.textjob{
+
+}
+.shift{
+  margin-right: 8em;
+}
+.shift:hover{
+  cursor: pointer;
+}
+@media screen and (max-width:900px) {
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+  }
+  .buttonContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  
+} 
+.Postcontainer{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  margin: auto;
+  padding: 0 0 20px 0;
+} 
+.postButcontainer{
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  /* margin-top: -325px;
+  margin-left: -23px; */
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+
+}
+.postButton{
+  flex: 1; 
+  margin-top:30px;            /* Ensures buttons take equal space */
+  height: 120px; /* Adjust the height as needed */
+  width: 220px; /* Optional: Set max width if you want a limit */
+  padding: 10px 10px; /* Adjust padding for the size of the button */
+  background-color:#F8F8FB; /* Button background color */
+  color: black; /* Button text color */
+  font-weight: 500;
+ /* Remove default border */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+  border:1px solid black;
+  
+  
+}
+.postButton:hover{
+  background-color:#3d8a3c;
+  cursor: pointer;
+
+}
     

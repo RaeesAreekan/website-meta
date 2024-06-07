@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse,faInbox,faEnvelope,faCalendar,faHandshake} from "@fortawesome/free-solid-svg-icons";
-function Sidebar() {
+const Sidebar=()=> {
   return (
     <>
-    <div className="py-2 flex flex-col space-y-5 mt-11 w-64 sidebar">
+    <aside className="py-2 flex flex-col space-y-5 mt-11 w-64 sidebar">
     <button className="py-1 px-8 hover:bg-green-500 hover:text-white rounded transition duration-200 btn flex items-center">
   <Link href="/dashboard" className='href'>
     <FontAwesomeIcon icon={faHouse} className="fas fa-check mr-5" style={{ color: "black" }} />
@@ -39,7 +39,7 @@ function Sidebar() {
     <span className="text-center">Calendar</span>
   </Link>
 </button>
-</div>
+</aside>
     
     </>
   );
