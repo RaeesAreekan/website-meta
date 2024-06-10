@@ -3,8 +3,8 @@ import React from 'react'
 export default function NotifN() {
   return (
     <>
-    <div className='w-1/4'>
-      <div className='mt-10 ml-4 '>
+    <div className='w-1/6'>
+      <div className='mt-10 ml-4 bg-custom-bg shadow-md'>
         <span className='recent'>Notification</span>
         <ul className='list-disc list-inside mt-4 px-3'>
           <li><span className='noti'>This is Notification 1 </span></li>

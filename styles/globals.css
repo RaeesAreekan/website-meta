@@ -149,6 +149,11 @@ text-decoration: none;
 .recent{
   color: #274c77;
   font-weight: 700;
+  max-width:690px;
+  
+}
+.recenttop{
+  background-color:#F8F8FB;
 }
 .recentBox{
   background-color:#F7AB13;
